@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/shoppingreact",
   plugins: [react()],
+
+  // build: {
+  //   rollupOptions: {
+  //       external: ['react', 'react-dom', 'react-router-dom'], // Add react-router-dom to external
+  //   },
+  // },
 })
